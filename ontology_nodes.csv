@@ -1,0 +1,26 @@
+id,label,comment
+http://example.org/ontology#Product,Product,Represents final products being manufactured
+http://www.w3.org/2002/07/owl#Class,Entity,
+http://example.org/ontology#Facility,Facility,Represents locations where products are manufactured or stored
+http://example.org/ontology#Supplier,Supplier,Represents suppliers providing materials
+http://example.org/ontology#hasAddress,has address,Links an entity to its address
+http://example.org/ontology#hasName,has name,Links an entity to its name
+http://example.org/ontology#hasContactInformation,has contact information,Links a supplier to its contact information
+http://www.w3.org/2001/XMLSchema#string,Entity,
+http://www.w3.org/2002/07/owl#DatatypeProperty,Entity,
+http://example.org/ontology#hasLocation,has location,Links a facility or supplier to its geographical location
+http://example.org/ontology#hasCertificationStatus,has certification status,Links a supplier to its certification status
+http://example.org/ontology#supplies,supplies,Links a supplier to a material they supply
+http://example.org/ontology#Material,Material,Represents raw materials used in manufacturing
+http://example.org/ontology#locatedIn,located in,Links an entity (supplier or facility) to its geographical location
+http://example.org/ontology#produces,produces,Links a facility to a product they produce
+http://www.w3.org/2002/07/owl#ObjectProperty,Entity,
+http://example.org/ontology#SupplyEvent,Entity,
+http://example.org/ontology#hasDate,has date,Links events (supply or production) to dates
+http://www.w3.org/1999/02/22-rdf-syntax-ns#nil,Entity,
+http://example.org/ontology#hasBatchSize,has batch size,Links a production event to the batch size
+http://example.org/ontology#ProductionEvent,Entity,
+http://example.org/ontology#Location,Entity,
+http://example.org/ontology#hasQuantity,has quantity,Links a supply event to the quantity supplied
+http://www.w3.org/2001/XMLSchema#decimal,Entity,
+http://www.w3.org/2001/XMLSchema#date,Entity,

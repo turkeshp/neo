@@ -1,0 +1,33 @@
+start_id,end_id,type,label,comment
+http://example.org/ontology#hasName,Links an entity to its name,http://www.w3.org/2000/01/rdf-schema#comment,,Links an entity to its name
+http://example.org/ontology#hasContactInformation,http://www.w3.org/2001/XMLSchema#string,http://www.w3.org/2000/01/rdf-schema#range,,
+http://example.org/ontology#hasName,http://www.w3.org/2002/07/owl#DatatypeProperty,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,,
+http://example.org/ontology#hasLocation,http://www.w3.org/2002/07/owl#DatatypeProperty,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,,
+http://example.org/ontology#hasAddress,http://www.w3.org/2002/07/owl#DatatypeProperty,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,,
+http://example.org/ontology#hasCertificationStatus,http://example.org/ontology#Supplier,http://www.w3.org/2000/01/rdf-schema#domain,,
+http://example.org/ontology#hasLocation,has location,http://www.w3.org/2000/01/rdf-schema#label,has location,
+http://example.org/ontology#produces,http://www.w3.org/2002/07/owl#ObjectProperty,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,,
+http://example.org/ontology#Supplier,http://www.w3.org/2002/07/owl#Class,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,,
+http://example.org/ontology#supplies,http://www.w3.org/2002/07/owl#ObjectProperty,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,,
+http://example.org/ontology#hasDate,has date,http://www.w3.org/2000/01/rdf-schema#label,has date,
+http://example.org/ontology#hasCertificationStatus,http://www.w3.org/2001/XMLSchema#string,http://www.w3.org/2000/01/rdf-schema#range,,
+http://example.org/ontology#Material,Material,http://www.w3.org/2000/01/rdf-schema#label,Material,
+http://example.org/ontology#Material,http://www.w3.org/2002/07/owl#Class,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,,
+http://example.org/ontology#hasLocation,Links a facility or supplier to its geographical location,http://www.w3.org/2000/01/rdf-schema#comment,,Links a facility or supplier to its geographical location
+http://example.org/ontology#supplies,http://example.org/ontology#Supplier,http://www.w3.org/2000/01/rdf-schema#domain,,
+http://example.org/ontology#hasCertificationStatus,http://www.w3.org/2002/07/owl#DatatypeProperty,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,,
+http://example.org/ontology#hasName,http://www.w3.org/2001/XMLSchema#string,http://www.w3.org/2000/01/rdf-schema#range,,
+http://example.org/ontology#hasAddress,has address,http://www.w3.org/2000/01/rdf-schema#label,has address,
+http://example.org/ontology#hasCertificationStatus,Links a supplier to its certification status,http://www.w3.org/2000/01/rdf-schema#comment,,Links a supplier to its certification status
+http://example.org/ontology#hasDate,http://www.w3.org/2002/07/owl#DatatypeProperty,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,,
+http://example.org/ontology#locatedIn,http://example.org/ontology#Location,http://www.w3.org/2000/01/rdf-schema#range,,
+http://example.org/ontology#supplies,supplies,http://www.w3.org/2000/01/rdf-schema#label,supplies,
+http://example.org/ontology#supplies,Links a supplier to a material they supply,http://www.w3.org/2000/01/rdf-schema#comment,,Links a supplier to a material they supply
+http://example.org/ontology#Facility,Facility,http://www.w3.org/2000/01/rdf-schema#label,Facility,
+http://example.org/ontology#hasQuantity,http://www.w3.org/2002/07/owl#DatatypeProperty,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,,
+http://example.org/ontology#Product,Represents final products being manufactured,http://www.w3.org/2000/01/rdf-schema#comment,,Represents final products being manufactured
+http://example.org/ontology#hasQuantity,has quantity,http://www.w3.org/2000/01/rdf-schema#label,has quantity,
+http://example.org/ontology#hasBatchSize,Links a production event to the batch size,http://www.w3.org/2000/01/rdf-schema#comment,,Links a production event to the batch size
+http://example.org/ontology#produces,produces,http://www.w3.org/2000/01/rdf-schema#label,produces,
+http://example.org/ontology#hasAddress,http://www.w3.org/2001/XMLSchema#string,http://www.w3.org/2000/01/rdf-schema#range,,
+http://example.org/ontology#hasDate,http://www.w3.org/2001/XMLSchema#date,http://www.w3.org/2000/01/rdf-schema#range,,
